@@ -58,7 +58,7 @@ def normalize_song(raw: Song) -> Song:
 
 
 def classify_song(song: Song, profile: Dict[str, object]) -> str:
-    """Return a mood label given a song and user profile."""
+    #"""Return a mood label given a song and user profile."""
     energy = song.get("energy", 0)
     genre = song.get("genre", "")
     title = song.get("title", "")
